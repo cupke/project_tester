@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  gpt_bot:
+    build: .
+    container_name: gpt_bot
+    restart: always
